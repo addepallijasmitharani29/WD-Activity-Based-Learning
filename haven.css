@@ -1,0 +1,259 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fff8ef;
+    color: #333;
+}
+
+header {
+    background-color: #4b2415;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    color: #ffc66d;
+    font-size: 35px;
+}
+
+
+nav {
+    background-color: #2c1a12;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffc66d;
+}
+
+
+.banner {
+    background-color: #f3dfc1;
+    text-align: center;
+    padding: 55px 20px;
+}
+
+.banner h2 {
+    color: #6b351f;
+    font-size: 32px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #8b4513;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #5c2c12;
+}
+
+/* Common Sections */
+section {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+section h2 {
+    color: #6b351f;
+    margin-bottom: 25px;
+}
+ Restaurant Ambience */
+.ambience img {
+    width: 80%;
+    max-width: 700px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Food Menu */
+.menu-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.food-card {
+    width: 220px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #ddd;
+}
+
+.food-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.food-card h3 {
+    color: #6b351f;
+}
+
+.food-card h4 {
+    color: #b45f16;
+    font-size: 20px;
+}
+
+.food-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Chef Profiles */
+.chefs {
+    background-color: #f3e6d4;
+}
+
+.chef-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.chef-card {
+    background-color: white;
+    width: 230px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.chef-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.chef-card h3 {
+    color: #8b4513;
+}
+
+/* Customer Reviews */
+.review-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.review {
+    background-color: white;
+    width: 280px;
+    padding: 20px;
+    border-left: 5px solid #b87837;
+    box-shadow: 0 3px 8px #ddd;
+}
+
+.stars {
+    color: #e6a323;
+}
+
+/* Opening Hours */
+.hours {
+    background-color: #f3dfc1;
+}
+
+/* Reservation Form */
+form {
+    max-width: 400px;
+    margin: auto;
+    text-align: left;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #ddd;
+}
+
+form label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #8b4513;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #5c2c12;
+}
+
+/* Contact */
+.contact {
+    background-color: #f3e6d4;
+}
+
+/* Footer */
+footer {
+    background-color: #2c1a12;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 7px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    .banner h2 {
+        font-size: 25px;
+    }
+
+    .ambience img {
+        width: 100%;
+        height: 220px;
+    }
+
+    .food-card {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .review {
+        width: 100%;
+        max-width: 280px;
+    }
+}

@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Booking</title>
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+
+    <header>
+        <h1>🚍 Travel Booking</h1>
+        <p>Book your Bus and Train Tickets Easily</p>
+    </header>
+
+    <nav>
+        <a href="#booking">Home</a>
+        <a href="#services">Services</a>
+        <a href="#fares">Fares</a>
+        <a href="#seats">Seats</a>
+    </nav>
+
+    <section class="booking" id="booking">
+        <h2>Book Your Journey</h2>
+
+        <form>
+            <label>From:</label>
+            <input type="text" placeholder="Enter source city" required>
+
+            <label>To:</label>
+            <input type="text" placeholder="Enter destination city" required>
+
+            <label>Travel Date:</label>
+            <input type="date" required>
+
+            <label>Passenger Name:</label>
+            <input type="text" placeholder="Enter your name" required>
+
+            <label>Number of Passengers:</label>
+            <input type="number" min="1" max="10" value="1" required>
+
+            <label>Choose Travel Type:</label>
+            <select>
+                <option>Bus</option>
+                <option>Train</option>
+            </select>
+
+            <button type="submit">Search Tickets</button>
+        </form>
+    </section>
+
+    <section id="services">
+        <h2>Available Services</h2>
+
+        <div class="cards">
+            <div class="card bus">
+                <h3>🚌 Express Bus</h3>
+                <p>Comfortable seats</p>
+                <p>Departure: 9:00 AM</p>
+                <p>Fare: ₹500</p>
+            </div>
+
+            <div class="card train">
+                <h3>🚆 Superfast Train</h3>
+                <p>AC and Sleeper options</p>
+                <p>Departure: 10:30 AM</p>
+                <p>Fare: ₹750</p>
+            </div>
+
+            <div class="card luxury">
+                <h3>🚌 Luxury Bus</h3>
+                <p>AC and Reclining Seats</p>
+                <p>Departure: 8:00 PM</p>
+                <p>Fare: ₹800</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="fares">
+        <h2>Ticket Fare Details</h2>
+
+        <table>
+            <tr>
+                <th>Service</th>
+                <th>Type</th>
+                <th>Fare</th>
+            </tr>
+            <tr>
+                <td>Express Bus</td>
+                <td>Non-AC</td>
+                <td>₹500</td>
+            </tr>
+            <tr>
+                <td>Superfast Train</td>
+                <td>Sleeper</td>
+                <td>₹750</td>
+            </tr>
+            <tr>
+                <td>Luxury Bus</td>
+                <td>AC</td>
+                <td>₹800</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="seats">
+        <h2>Select Your Seats</h2>
+        <p>Choose your preferred seat:</p>
+
+        <div class="seats">
+            <label><input type="checkbox"> A1</label>
+            <label><input type="checkbox"> A2</label>
+            <label><input type="checkbox"> A3</label>
+            <label><input type="checkbox"> A4</label>
+            <label><input type="checkbox"> B1</label>
+            <label><input type="checkbox"> B2</label>
+            <label><input type="checkbox"> B3</label>
+            <label><input type="checkbox"> B4</label>
+        </div>
+
+        <button type="button">Confirm Seats</button>
+    </section>
+
+    <footer>
+        <p>© 2026 Travel Booking Website | Happy Journey!</p>
+    </footer>
+
+</body>
+</html>

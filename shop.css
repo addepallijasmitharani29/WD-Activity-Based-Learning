@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fffaf0;
+    color: #333;
+}
+
+header {
+    background-color: #201810;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: #e3bd70;
+}
+
+
+nav {
+    background-color: #463525;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e3bd70;
+}
+
+/* Banner */
+.banner {
+    background-color: #eee0c9;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.banner h2 {
+    font-size: 35px;
+    color: #6d4525;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #a87935;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #704719;
+}
+
+/* Products */
+#products {
+    text-align: center;
+    padding: 25px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    width: 220px;
+    padding: 15px;
+    border: 1px solid #e5d5bb;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px #ddd;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card h3 {
+    color: #704719;
+}
+
+.card p {
+    font-size: 14px;
+}
+
+.price {
+    color: #a87935;
+    font-size: 18px !important;
+    font-weight: bold;
+}
+
+del {
+    color: gray;
+    font-size: 13px;
+}
+
+button {
+    background-color: #704719;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a87935;
+}
+
+/* Offer */
+.offer {
+    background-color: #e3bd70;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+/* Footer */
+footer {
+    background-color: #201810;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Mobile responsive design */
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .banner h2 {
+        font-size: 27px;
+    }
+}
